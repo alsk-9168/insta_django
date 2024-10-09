@@ -1,0 +1,33 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+
+<body>
+    <div class="container">
+            <h1>Instagram</h1>
+        <div class="root">
+            <form action="/" method="POST">{% csrf_token %}
+                <input type="text" name="username" placeholder="Phone number, username or Email address">
+                <input type="password" name="password" placeholder="password">
+                <a href="#">Forgotten password?</a>
+                <button type="submit">Log In</button>
+            <div class="underline">
+                <div class="l1"></div>
+                <span><h3>or</h3></span>
+                <div class="l1 "></div>
+            </div>
+            <!-- <div class="fb-logo">s</div> -->
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

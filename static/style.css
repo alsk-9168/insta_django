@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+
+}
+
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.root {
+  width: 100%;
+  padding: 0 20px;
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+
+form {
+  width: 100%;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+input{
+    border-radius: 5px;
+
+    height: 50px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    background-color: aliceblue;
+    border: none;
+    font-size: large;
+    font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+  color: #2C7FD8;
+  font-weight: 600;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button{
+    height: 50px;
+    background-color: #2C7FD8;
+    border: none;
+    font-size: large;
+    font-weight: 500;
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.underline{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.l1{
+    background-color: black;
+    width: 43%;
+    height: 1px;
+}
+/* 
+.fb-logo{
+  width: 320px;
+  height: 10px;
+  background-color: #2C7FD8;
+} */
